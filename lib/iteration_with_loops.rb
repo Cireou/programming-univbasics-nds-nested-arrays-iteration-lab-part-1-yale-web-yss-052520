@@ -4,7 +4,7 @@ def find_even_values(src)
   # Output all even values in each nested array
   for r in 0...src.length do
     for c in 0...src[0].length do
-      if src[r][c].even? do
-        p src[r][c]
+      p src[r][c]
+    end
   end
 end
