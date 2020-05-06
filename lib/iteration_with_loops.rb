@@ -17,7 +17,7 @@ end
 
 for r in 0...src.length do
   for c in 0...src[0].length do
-    print r,c\n
+    puts r,c
   end
 end
     
