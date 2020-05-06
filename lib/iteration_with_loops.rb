@@ -15,10 +15,11 @@ end
 
 
 
-for r in 0...src.length d
+for r in 0...src.length do
   for c in 0...src[r].length do
     if src[r][c].even?
       puts src[r][c]
+    end 
   end
 end
     
