@@ -15,11 +15,10 @@ end
 
 
 
-for r in 0...src.length do
-  puts "In row #{r}"
+for r in 0...src.length d
   for c in 0...src[r].length do
-    puts "col #{c} #{src[r][c]}"
+    if src[r][c].even?
+      puts src[r][c]
   end
-  puts
 end
     
