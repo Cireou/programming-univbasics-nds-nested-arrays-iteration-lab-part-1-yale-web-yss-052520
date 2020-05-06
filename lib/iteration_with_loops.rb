@@ -16,7 +16,7 @@ end
 
 
 for r in 0...src.length do
-  for c in 0...src[0].length do
+  for c in 0...src[r].length do
     puts r,c
   end
   puts
