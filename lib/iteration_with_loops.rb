@@ -16,8 +16,9 @@ end
 
 
 for r in 0...src.length do
+  puts "In row #{r}"
   for c in 0...src[r].length do
-    puts r,c
+    puts "col #{c}"
   end
   puts
 end
