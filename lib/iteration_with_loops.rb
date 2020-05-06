@@ -6,7 +6,5 @@ def find_even_values(src)
     for c in 0...src[0].length do
       if src[r][c].even? do
         p src[r][c]
-      end
-    end
   end
 end
