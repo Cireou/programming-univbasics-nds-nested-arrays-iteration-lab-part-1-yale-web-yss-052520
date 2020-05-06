@@ -12,3 +12,12 @@ def find_even_values(src)
     row += 1
   end
 end
+
+
+
+for r in 0...src.length do
+  for c in 0...src[0].length do
+    puts r,c
+  end
+end
+    
