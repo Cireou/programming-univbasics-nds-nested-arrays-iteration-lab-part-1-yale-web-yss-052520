@@ -18,7 +18,7 @@ end
 for r in 0...src.length do
   puts "In row #{r}"
   for c in 0...src[r].length do
-    puts "col #{c}"
+    puts "col #{c} #{src[r][c]}"
   end
   puts
 end
